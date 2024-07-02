@@ -1,6 +1,6 @@
-from django.contrib import admin
+#from django.contrib import admin
 from django.urls import path
-from loja_.views import home, sobre, contato
+from loja_.views import home
 
 
 
@@ -8,6 +8,4 @@ from loja_.views import home, sobre, contato
 
 urlpatterns = [
     path('', home), # /home/
-    path('sobre/', sobre), #/sobre/
-    path('contato/', contato), #/contato/
-]
+    ]
